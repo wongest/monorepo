@@ -1,0 +1,29 @@
+{
+  "name": "@mc/utils",
+  "version": "1.0.0",
+  "description": "工具库",
+  "author": "wongest <345375378@qq.com>",
+  "homepage": "https://github.com/wongest/monorepo#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wongest/monorepo.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@mc/utils.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/wongest/monorepo/issues"
+  }
+}

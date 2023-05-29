@@ -1,0 +1,35 @@
+{
+  "name": "@mc/components",
+  "version": "1.0.0",
+  "description": "组件库",
+  "keywords": [
+    "组件库"
+  ],
+  "author": "wongest <345375378@qq.com>",
+  "homepage": "https://github.com/wongest/monorepo#readme",
+  "license": "ISC",
+  "main": "lib/components.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wongest/monorepo.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@mc/components.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/wongest/monorepo/issues"
+  },
+  "dependencies": {
+    "@mc/utils": "1.0.0"
+  }
+}
